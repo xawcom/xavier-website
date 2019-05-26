@@ -254,7 +254,6 @@ const Layout = ({ children, color }: LayoutProps) => {
           <Main>{children}</Main>
           <Footer color={color}>
             <Box p={[6, 6, 8]} fontSize={0}>
-              
             </Box>
           </Footer>
         </Wrapper>
