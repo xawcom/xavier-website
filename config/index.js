@@ -12,6 +12,7 @@ module.exports = {
   author: 'Xavierwhitephotography', // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
+  userTwitter: '@jodie', // Twitter Username
   ogSiteName: 'xavierwhitephotography', // Facebook Site Name
   ogLanguage: 'en_US', // og:language
   googleAnalyticsID: 'UA-XXXXXX-X',
