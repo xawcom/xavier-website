@@ -56,8 +56,7 @@ const Area = styled(animated.div)`
       'first-project about-us'
       'three-projects three-projects'
       'three-projects three-projects'
-      'three-projects three-projects'
-      'instagram instagram';
+      'three-projects three-projects';
   }
 
   @media (max-width: ${props => props.theme.breakpoints[0]}) {
