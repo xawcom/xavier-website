@@ -25,7 +25,6 @@ type PageProps = {
       }[]
     }
     aboutUs: ChildImageSharp
-    instagram: ChildImageSharp
   }
 }
 
@@ -90,11 +89,7 @@ const ThreeProjects = styled.div`
   }
 `
 
-const Instagram = styled(GridItem)`
-  grid-area: instagram;
-`
-
-const Index: React.FunctionComponent<PageProps> = ({ data: { firstProject, threeProjects, aboutUs, instagram } }) => {
+const Index: React.FunctionComponent<PageProps> = ({ data: { firstProject, threeProjects, aboutUs } }) => {
   const pageAnimation = useSpring({
     config: config.slow,
     from: { opacity: 0 },
