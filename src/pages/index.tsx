@@ -45,8 +45,7 @@ const Area = styled(animated.div)`
     grid-template-areas:
       'first-project first-project about-us about-us'
       'three-projects three-projects three-projects three-projects'
-      'three-projects three-projects three-projects three-projects'
-      'instagram instagram instagram instagram';
+      'three-projects three-projects three-projects three-projects';
   }
 
   @media (max-width: ${props => props.theme.breakpoints[1]}) {
