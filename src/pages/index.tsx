@@ -43,6 +43,7 @@ const Area = styled(animated.div)`
     grid-template-areas:
       'first-project first-project about-us about-us'
       'three-projects three-projects three-projects three-projects'
+      'three-projects three-projects three-projects three-projects'
       'three-projects three-projects three-projects three-projects';
   }
 
